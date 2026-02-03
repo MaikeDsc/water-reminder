@@ -9,7 +9,7 @@ def lembrete():
         timeout = 10, 
     )
 
-#eviará a notificação a cada 42 minutos
+#eviará a notificação a cada 45 minutos
 while True:
     lembrete()
     time.sleep(45*60)
