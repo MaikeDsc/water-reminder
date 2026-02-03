@@ -19,7 +19,6 @@ print("\nQual o intevalo de tempo pata receber as notificações? \n")
 minutos = int (input("Digite os minutos desejados de intevalo aqui : "))
 tempo  = minutos * 60
 
-
 #eviará a notificação a cada 45 minutos
 print(f"\nNotificações configuradas para cada {minutos} minutos. \n-- Water reminder ativo ! -- ")
 while True:
